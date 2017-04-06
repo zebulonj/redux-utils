@@ -4,6 +4,7 @@
   "description": "Utilities for Redux.",
   "main": "index.js",
   "scripts": {
+    "build": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,15 +14,28 @@
   "keywords": [
     "Redux",
     "Immutable",
-    "Middleware"
+    "middleware",
+    "thunk"
   ],
   "author": "Zebulon Young (zebulonj@gmail.com)",
   "license": "MIT",
-  "files": {
-    "LICENSE"
-  },
+  "files": [
+    "LICENSE",
+    "lib/"
+  ],
   "bugs": {
     "url": "https://github.com/zebulonj/redux-utils/issues"
   },
-  "homepage": "https://github.com/zebulonj/redux-utils#readme"
+  "homepage": "https://github.com/zebulonj/redux-utils#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-preset-es2015": "^6.24.0",
+    "eslint": "^3.19.0"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "redux": "^3.6.0"
+  }
 }
