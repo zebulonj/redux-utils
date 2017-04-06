@@ -2,5 +2,5 @@
 
 ## Install
 ```shell
-npm install --save https://github.com/zebulonj/redux-utils/master.tar.gz
+npm install --save https://github.com/zebulonj/redux-utils/archive/master.tar.gz
 ```
