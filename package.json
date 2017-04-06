@@ -1,0 +1,27 @@
+{
+  "name": "redux-utils",
+  "version": "0.0.0",
+  "description": "Utilities for Redux.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zebulonj/redux-utils.git"
+  },
+  "keywords": [
+    "Redux",
+    "Immutable",
+    "Middleware"
+  ],
+  "author": "Zebulon Young (zebulonj@gmail.com)",
+  "license": "MIT",
+  "files": {
+    "LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/zebulonj/redux-utils/issues"
+  },
+  "homepage": "https://github.com/zebulonj/redux-utils#readme"
+}
