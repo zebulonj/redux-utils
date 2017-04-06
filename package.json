@@ -1,5 +1,5 @@
 {
-  "name": "redux-utils",
+  "name": "@zebulonj/redux-utils",
   "version": "0.0.0",
   "description": "Utilities for Redux.",
   "main": "index.js",
