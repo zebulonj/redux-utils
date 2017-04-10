@@ -13,7 +13,6 @@
   },
   "keywords": [
     "Redux",
-    "Immutable",
     "middleware",
     "thunk"
   ],
