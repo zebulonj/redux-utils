@@ -4,7 +4,7 @@
         "es6": true,
         "node": true
     },
-    "extends": ["eslint:recommended"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
     "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
@@ -13,7 +13,9 @@
         },
         "sourceType": "module"
     },
-    "plugins": [],
+    "plugins": [
+      "react"
+    ],
     "rules": {
         "accessor-pairs": "error",
         "array-bracket-spacing": "off",
